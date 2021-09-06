@@ -6,15 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "yarn jest --watch"
   },
   "dependencies": {
+    "autoprefixer": "^10.3.4",
     "next": "11.1.2",
+    "postcss": "^8.3.6",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "tailwindcss": "^2.2.9"
   },
   "devDependencies": {
+    "babel-jest": "^27.1.0",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "jest": "^27.1.0"
   }
 }
