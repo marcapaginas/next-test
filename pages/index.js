@@ -20,6 +20,7 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
+        <p className="p-4 m-10 text-3xl text-red-500 bg-yellow-100 rounded">Prueba</p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
